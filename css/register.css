@@ -1,0 +1,459 @@
+.registerWrap{
+background-color:#e9e6e4;
+
+background: linear-gradient(
+    180deg,
+    #e9e6e4 0%,
+    white 90%);
+padding:1px 0 40px;;
+}
+
+.container-fluid.acctType{
+    padding:0px;
+}
+
+@media only screen and (max-width:1000px){
+.container-fluid.acctType{
+    padding:0 20px;
+}
+}
+
+.banner{
+      background-image:
+    /*url("../images/finaeon-logo-white-275.png"),*/
+    linear-gradient(155deg, black 0%, #13A79D 90%);
+    padding:30px 30px 75px;
+    color:white;
+}
+
+
+.subBanner{
+    outline:0px solid red;
+    padding:20px;
+    font-weight:200;
+    line-height:1.5em;
+    width:80%;
+    max-width:1000px;
+    text-align:center;
+    margin:-50px auto 60px;
+    background-color:#2d2c29;
+    color:white;
+    box-shadow:0px 0px 00px #999;
+
+}
+
+.subBanner strong{
+    font-weight:700;
+ }
+
+ .subBanner a{
+     color:white;
+     text-decoration:underline;
+ }
+
+.academicForm, .businessForm{
+    display:none;
+}
+
+section.register{
+    margin:0 auto;
+    width:100%;
+    max-width:1000px;
+    clear:both;
+
+}
+
+.banner h2{
+    font-weight:300;
+    text-align:center;
+    line-height:1.1em;
+    margin-top:10px;
+}
+
+.banner h2 span{
+    font-weight:700;
+
+}
+
+.alreadyRegistered{
+    text-align:center;
+    margin:0px auto 0px;
+    padding:15px;
+    width:100%;
+    min-width:300px;
+}
+
+
+.alreadyRegistered a{
+    color:white;
+    text-decoration:underline;
+    transition:.3s;
+}
+
+.alreadyRegistered a:hover{
+    color:yellow;
+}
+
+
+
+
+.backToFinaeon{
+    display:block;
+    margin:30px auto 20px;
+    width:85%;
+    max-width:960px;
+    font-size:18px;
+    text-align:center;
+}
+
+.navLogin{
+    padding:10px 0;
+}
+
+a.logoRegister{
+    display:block;
+    width:100%;
+    margin:10px auto;
+    text-align:center;
+    }
+
+
+a.logoRegister img{
+    float:none;
+    width:250px;
+    text-align:center;
+
+}
+
+h6.logo.register{
+    text-align:center;
+}
+
+
+section.register.selAcctType p.select{
+    font-weight:900;
+    text-align:center;
+    font-size:32px;
+    margin:20px auto 30px;
+    width:90%;
+
+}
+
+
+
+.business, .academic{
+     box-shadow:0px 0px 40px #ddd;
+
+}
+
+.acctTypeDescription{
+    background-color:white;
+    padding-bottom:25px;
+
+}
+
+.acctTypeDescription.textContain{
+    padding:15px 40px;
+}
+
+
+.acctTypeDescription p{
+
+}
+
+.acctTypeDescription h3{
+    color:white;
+    padding:15px 40px;
+    font-weight:300;
+}
+
+.acctTypeDescription h3.teal,
+.modal-header.teal{
+    background-image:linear-gradient(165deg, #0d7369 0%, #59bfba 95%);
+}
+
+.acctTypeDescription h3.dark,
+.modal-header.dark{
+    background-image:linear-gradient(165deg, black 0%, #3f474a 95%);
+}
+
+.modal-header h5{
+    color:white;
+    text-transform:uppercase;
+    font-size:32px;
+}
+
+.modal-header{
+    padding:10px 20px;
+    height:200px;
+
+}
+
+.close{
+    color:white;
+    position:relative;
+    top:5px;
+    right:2px;
+}
+
+.close:hover{
+    color:white;
+    position:relative;
+    top:5px;
+    right:2px;
+}
+
+
+
+.modal-content{
+    max-height:750px;
+
+}
+
+.modal-dialog{
+    max-width: 1000px;
+    width:85%;
+    margin:2% auto;
+
+}
+
+.modal-body{
+    overflow-y:scroll;
+    padding:20px 40px;
+    padding-bottom:50px;
+
+}
+
+.modal-body ol{
+    padding-bottom:10px;
+}
+
+  .modal-header{
+        min-height:60px;
+
+    }
+
+/* .modal-body p,
+.modal-body li,
+.modal-body li p{
+    font-size:14px;
+    font-weight:500;
+} */
+
+.modal-footer{
+    display:block;
+    padding:10px 35px 5px 25px;
+    background: linear-gradient(
+    180deg,
+    #e9e6e4 0%,
+    white 30%);
+}
+
+.modal-footer button{
+    border:none;
+}
+
+.modal-footer button.accept{
+    background-color:#e78024;
+    font-size:22px;
+    font-weight:600;
+    padding:5px 25px;
+    width:100%;
+    transition:.3s;
+}
+
+.modal-footer button.decline{
+    background-color:transparent;
+    color:#999;
+    width:100%;
+    font-size:20px;
+
+}
+
+#checkboxAlertBus,
+#checkboxAlertAca{
+    color:red;
+    font-weight: bold;
+    display:none;
+    text-align: center;
+    transition: .3s;
+    height:0px;
+    overflow:hidden;
+    outline:0px solid green;
+}
+
+.alertReveal{
+    height:30px;
+}
+
+.modalCheckbox{
+    width:100%;
+    margin:0px 0 20px;;
+    text-align:center;
+    font-size:16px;
+}
+
+.form-check-input[type=checkbox]{
+    transform:scale(1.5);
+    position:relative;
+    top:1px;
+    margin-right:10px;
+}
+
+.modal-backdrop.show{
+    opacity:.75;
+}
+
+
+/*MOBILE STYLING*/
+
+@media only screen and (max-width:767px){
+    .navMainWrap.full.login{
+        display:block;
+    }
+
+ .col-md-6{
+    margin-bottom:75px;
+ }
+
+ .acctTypeDescription p{
+    font-weight:600;
+}
+
+.acctTypeDescription.textContain, .acctTypeDescription h3{
+    padding:15px 20px;
+}
+
+.banner h2{
+    font-size:36px;
+    margin:0px;
+    margin-bottom:15px;
+}
+
+.alreadyRegistered{
+    padding:0px;
+}
+
+.register h5{
+    font-size:18px;
+    line-height:1.35em;
+}
+
+
+
+}
+
+
+
+
+.decisionButtons{
+    width:100%;
+
+}
+
+
+
+ @media only screen and (max-height:775px){
+.modal-content{
+    max-height:625px;
+
+}
+     }
+
+ @media only screen and (max-width:700px){
+    .modalCheckbox, .decisionButtons{
+        font-size:12px;
+        font-weight:600;
+
+    }
+    .modal-header h5{
+        font-size:28px;
+
+    }
+
+    .modal-content{
+    max-height:600px;
+
+}
+
+section.register.selAcctType p.select{
+    font-size:22px;
+    font-weight:900;
+ }
+
+ ol {
+     padding-left:15px;
+ }
+
+  .modal-body{
+    overflow-y:scroll;
+    padding:20px 20px;
+
+
+}
+
+.modalCheckbox{
+    margin-left:10px;
+}
+
+}
+
+/* STYLING FOR IPHONE 5 */
+
+@media only screen and (min-width:320px) and (max-width:320px) and (min-height:568px) and (max-height:568px){
+
+    .modal-content{
+    max-height:525px;
+
+}
+ .modal-header h5{
+        font-size:25px;
+        position:relative;
+        top:2px;
+
+    }
+
+section.register.selAcctType p.select{
+    font-size:20px;
+    font-weight:700;
+ }
+
+.modal-footer button.accept,
+.modal-footer button.decline{
+
+    font-size:20px;
+    width:100%;
+}
+
+.form-check-input[type=checkbox]{
+    left:8%;
+
+}
+
+.modalCheckbox{
+    margin-left:3px;
+}
+
+}
+
+
+/* STYLING FOR GALAXY 5 */
+
+@media only screen and (min-width:360px) and (max-width:360px) and (min-height:640px) and (max-height:640px){
+
+.modal-footer button.accept,
+.modal-footer button.decline{
+
+    font-size:20px;
+  }
+
+.form-check-input[type=checkbox]{
+    left:8%;
+
+}
+
+
+.modalCheckbox{
+    margin-left:3px;
+}
+}

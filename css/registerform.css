@@ -1,0 +1,94 @@
+.gfdform{
+    padding:20px;
+    background-color:white;
+         box-shadow:0px 15px 40px #ddd;
+    margin:0 auto 0;
+    width:85%;
+    max-width:1000px;
+    z-index:0;
+}
+
+.businessForm h3,
+.academicForm h3
+{
+    padding:15px;
+    color:white;
+    margin:20px auto 0;
+    width:85%;
+    max-width:1000px;
+    z-index:10;
+    position:relative;
+    top:10px;
+    font-weight:300;
+    font-size:28px;
+    border-radius: 7px 7px 0 0;
+    text-align:center;
+}
+
+.businessForm h3 span,
+.academicForm h3 span
+{
+    color:yellow;
+    font-weight:bold;
+    font-size:40px;
+    display:block;
+}
+
+
+
+.businessForm h3.dark
+{
+    background-image:linear-gradient(165deg, black 0%, #3f474a 95%);
+}
+
+
+.academicForm h3.teal
+{
+    background-image:linear-gradient(165deg, #0d7369 0%, #59bfba 95%);
+}
+
+.formReq{
+    color:red;
+    font-weight:700;
+    font-size:20px;
+}
+
+.gfdform small.formReq
+{
+    color:red;
+    font-size: 14px;
+    padding: 10px 0px 25px;
+    display:block;
+}
+
+.cityStateZip{
+    width:30%;
+    float:left;
+}
+
+.container.formAddress{
+    padding:0;
+}
+
+@media only screen and (max-width:500px){
+.businessForm button,
+.academicForm button{
+    padding:10px 20px;
+    margin:20px auto;
+    display:block;
+    font-size:18px;
+}
+
+.gfdform{
+    width:90%;
+
+}
+
+
+.businessForm h3,
+.academicForm h3
+{
+    width:90%;
+}
+
+}

@@ -1,0 +1,96 @@
+article.finaeon{
+  margin:50px auto 50px ;
+}
+
+article.finaeon .finDesBottomWrap{
+  margin:-20px auto 50px ;
+}
+
+section.finaeonHero{
+  height:350px;
+  position:relative;
+  transition:.3s;
+  overflow: hidden;
+  background-image:
+    /*url("../images/finaeon-logo-white-275.png"),*/
+    linear-gradient(155deg, black 0%, #13A79D 90%);
+  background-position: center;
+  background-repeat:no-repeat;
+
+}
+
+.finaeonHeadWrap
+{
+  position:relative;
+  top:20%;
+}
+
+.finaeonHero h2{
+  text-align:center;
+  color:white;
+  font-size:60px;
+  font-weight:200;
+  }
+
+.finaeon h3{
+  font-weight:300;
+  width:100%;
+  color:#0b4b71;
+}
+
+.tabsContain.finaeon{
+ outline:0px solid red;
+ margin:15px 0 50px 0;
+}
+
+.tabsContain.finaeon ul li{
+  font-size: 24px;
+  }
+
+.tabsContain.finaeon ul li{
+  text-align:center;
+  width:33%;
+}
+
+@media only screen and (max-width:470px){
+  .tabsContain.finaeon ul li, .tabsContain.finaeon ul li:first-child, .tabsContain.finaeon ul li:last-child{
+    text-align:center;
+    width:100%;
+  }
+
+  section.finaeonHero{
+    height:225px;
+    position:relative;
+    transition:.3s;
+    overflow: hidden;
+    background-image:
+    /*url("../images/finaeon-logo-white-275.png"),*/
+    linear-gradient(155deg, black 0%, #13A79D 70%);
+    background-position: center;
+    background-repeat:no-repeat;
+
+  }
+
+  .finaeonHero h2{
+    font-size:24px;
+    margin-top:-50px;
+  }
+}
+
+@media only screen and (max-width:330px){
+
+
+  section.finaeonHero{
+    height:225px;
+    position:relative;
+    transition:.3s;
+    overflow: hidden;
+    background-image: url("../images/finaeon-logo-white-225.png"),
+    linear-gradient(155deg, black 0%, #13A79D 70%);
+    background-position: center;
+    background-repeat:no-repeat;
+
+  }
+
+
+}

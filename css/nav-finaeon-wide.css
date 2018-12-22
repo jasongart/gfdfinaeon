@@ -1,0 +1,125 @@
+
+/* For the wide version of the menu */
+
+div.dropdown-menu.fullWidthDrop{
+position:absolute;
+padding:25px;
+top:122px;
+left:0;
+width:100%;
+overflow:hidden;
+}
+
+
+
+.container-fluid.navbarFull{
+margin-top:-15px;
+margin-bottom:-10px;
+padding:0;
+
+
+}
+
+.row.navbarFull{
+  padding:0;
+}
+
+
+.capabilities .col-lg-2.col-md-4{
+
+  padding:20px;
+
+}
+
+.menuSpacer{
+  margin:10px auto;
+}
+
+
+
+.dropdown-item {
+    font-weight: 600;
+    position: relative;
+    padding:6px 0px 6px 6px;
+    transition: .3s;
+    font-size:14px;
+    white-space: pre-line;
+    color:#5c5b59;
+    line-height:1.3em;
+}
+
+
+.dropdown-item:hover {
+    color:#13a79d;
+    background-color:initial;
+}
+
+
+.dropdown-item.head {
+    font-weight:700;
+    position: relative;
+    padding-left: 6px;
+    color:black;
+    font-size:15px;
+}
+
+.menuColSection{
+  text-align:center;
+  padding:10px 20px 0px 0px;
+  margin-bottom:0px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+.menuColSection hr{
+border:1px solid #cfccc8;
+margin-top:5px;
+}
+
+.navMainWrap.mobile{
+  display:none;
+}
+
+
+/* .capabilities.dropWide{
+  display:none;
+} */
+
+.dropWideShow{
+  display:block;
+
+}
+
+.dropActive a{
+  color:red;
+
+}
+
+
+@media only screen and (max-width:1100px){
+div.dropdown-menu.fullWidthDrop{
+top:110px;
+}
+
+.dropdown-item {
+    font-size:13px;
+}
+
+.dropdown-item.head {
+    font-size:14px;
+}
+
+}
+
+@media only screen and (max-width:767px){
+
+  .navMainWrap.mobile{
+    display:block;
+}
+
+  .navMainWrap.full{
+    display:none;
+}
+
+
+}

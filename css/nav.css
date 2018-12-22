@@ -1,0 +1,295 @@
+/*****NAVIGATION******/
+
+#topNavBottom ul li a{
+   font-size:15px;
+   font-family:open sans, arial, sans-serif;
+   font-weight:400;
+   letter-spacing:0px;
+   color:white;
+   transition:.3s;
+   margin:0 7px 0 7px;
+}
+
+#topNavBottom ul li a:hover{
+   background-color:#0b4b71;
+}
+
+#topNavBottom ul li a:focus{
+   background-color:#0b4b71;
+}
+
+.navWrapAll
+{
+
+}
+
+.navTopWrap{
+width:100%;
+outline:0px solid red;
+}
+
+
+
+.navTop
+{
+clear:both;
+margin:0 auto;
+height:70px;
+width:97.25%;
+max-width:1200px;
+
+}
+
+
+a#CTA{
+    display:block;
+    float:right;
+    margin:10px;
+    color:white;
+    background-color:#e78024;
+    padding:10px 20px 10px 20px;
+    font-size:16px;
+    font-weight:600;
+    border-radius:5px;
+    font-family:open sans, arial, sans-serif;
+    transition:.3s;
+}
+a#CTAmobile{
+    display:none;
+}
+
+a#CTA:hover{
+    text-decoration:none;
+    background-color:#d5670a;
+}
+
+a#logo{
+    margin:10px;
+    display:block;
+    float:left;
+}
+
+a#logo img{
+    width:195px;
+    transition:.3s;
+}
+
+.navBottomWrap
+{
+    background-color:#005f99;
+    width:100%;
+outline:0px solid red;
+}
+
+.navBottom
+{
+outline:0px solid red;
+margin:0 auto;
+padding:0px;
+width:95%;
+max-width:1180px;
+}
+
+ul.navBottomRight
+{
+outline:0px solid red;
+margin:0;
+position:absolute;
+right:0;
+list-style: none;
+padding:0;
+}
+
+ul.navBottomRight li
+{
+
+float:left;
+outline:0px solid red;
+}
+
+a.nav-link.login{
+    background-color:#0797cf;
+}
+
+/* This media query reduces the font size right before going into mobile */
+@media only screen and (min-width:768px) and (max-width:900px){
+#topNavBottom ul li a{
+   font-size:14px;
+   font-family:open sans, arial, sans-serif;
+   font-weight:400;
+   letter-spacing:0px;
+   color:white;
+   margin:0 0px 0 0px;
+}
+}
+
+@media only screen and (max-width:767px)
+{
+
+a#logo img{
+    width:170px;
+    margin-top:7px;
+
+}
+
+    a#CTA{
+    display:none;
+ }
+
+    a#CTAmobile{
+    display:block;
+    width:100%;
+    height:40px;
+    color:white;
+    background-color:#e78024;
+    padding:5px;
+    font-size:20px;
+    font-weight:600;
+    text-align:center;
+    font-family:open sans, arial, sans-serif;
+    transition:.3s;
+}
+
+    a#CTAmobile:hover{
+    text-decoration:none;
+    background-color:#d5670a;
+}
+
+ .navBottomWrap
+{
+    background-color:#005f99;
+    width:100%;
+    outline:0px solid red;
+}
+
+
+button.navbar-toggler{
+    position:absolute;
+    right:5px;
+    top:-52px;
+    outline:0px solid red;
+}
+
+ ul.navBottomRight
+{
+  position:initial;
+  list-display-type:none;
+  margin:0;
+}
+
+ul.navBottomRight li
+{
+  float:none;
+}
+
+button.navbar-toggler{
+
+
+}
+
+ul.navBottomRight li a
+{
+  padding-left:0;
+}
+
+a.nav-link.login{
+  background-color:initial;
+}
+
+#navbarNavDropdown a.nav-link{
+  padding-left:10px;
+  position:relative;
+
+}
+
+}
+
+ul.navBottomRight li:last-child
+{
+margin-left: 0px;
+}
+
+
+/*****Dropdown navs******/
+
+.dropdown-menu{
+  background-color:#0b4b71;
+  padding-right:0px;
+  position:relative;
+  top:35px;
+  left:7px;
+  border:0px;
+  transition:.3s;
+  font-family:open sans,arial,sans-serif;
+  border-radius:0px;
+}
+
+.dropdown-menu p{
+  color:white;
+  font-weight:700;
+  margin:10px 0 0 15px;
+}
+
+#topNavBottom .dropdown-item{
+  font-weight:100;
+  position:relative;
+  left:-7px;
+  width:100%;
+  transition:.3s;
+}
+#topNavBottom .dropdown-item:hover{
+  font-weight:100;
+  background-color:#0797cf;
+}
+
+@media only screen and (min-width:768px) and (max-width:900px)
+{
+ .dropdown-menu{
+   top:34px;
+ }
+
+  #topNavBottom .dropdown-item{
+    font-weight:100;
+    position:relative;
+    left:0px;
+    width:100%;
+  }
+}
+
+
+#navbarNavDropdown{
+    transition:.15s;
+}
+
+@media only screen and (max-width:767px){
+  .navBottomWrap{
+    padding:0;
+  }
+
+  #topNavBottom ul{
+    padding:0;
+    margin-left:0px;
+    width:98%;
+  }
+
+  #topNavBottom ul li{
+    margin-left:0px;
+    width:100%;
+  }
+
+  #topNavBottom a{
+    width:100%;
+  }
+
+  #topNavBottom .dropdown-menu{
+    background-color:#0b4b71;
+    margin-top:0px;
+    margin-left:7px;
+    width:100%;
+    border:0px;
+    transition:.3s;
+    font-family:open sans,arial,sans-serif;
+    border-radius:0px;
+  }
+
+}
