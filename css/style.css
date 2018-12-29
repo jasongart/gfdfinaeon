@@ -124,10 +124,10 @@ section.hero{
 }
 
 #anim_container{
-    width: 100px;
-    height: 100px;
-    outline: 1px solid red;
+    width: 135px;
+    height: 135px;
     margin: 0 auto 15px;
+    position: relative;
 }
 
 .hero h1{
