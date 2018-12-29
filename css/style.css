@@ -119,14 +119,14 @@ section.hero{
     width:90%;
     max-width:1165px;
     position:relative;
-    top:15%;
+    top:8%;
     text-align:center;
 }
 
 #anim_container{
     width: 135px;
     height: 135px;
-    margin: 0 auto 15px;
+    margin: 0 auto -12px;
     position: relative;
 }
 
@@ -205,7 +205,7 @@ i.fas{
 
     section.hero{
         /* background image is placeholder for eventual video background */
-        background-image: url("../Images/hero-bg-33.png");
+        background-image: url("../images/hero-bg-33.png");
         background-size:cover;
         background-attachment: fixed;
         background-color:black;
