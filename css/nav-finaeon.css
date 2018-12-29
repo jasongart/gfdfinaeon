@@ -6,6 +6,12 @@
 
 .wrap{
   padding-top:0px;
+
+}
+
+.navMainWrap, .navWrapAll
+{
+background-color:white;
 }
 
 

@@ -19,6 +19,16 @@ section.finaeonHero{
 
 }
 
+.finaeonIconContain{
+    width:125px;
+    height:125px;
+    margin:0 auto 0px;
+}
+
+.finaeonIconContain img{
+    width:100%;
+}
+
 .finaeonHeadWrap
 {
   position:relative;
@@ -35,13 +45,15 @@ section.finaeonHero{
 .finaeon h3{
   font-weight:300;
   width:100%;
-  color:#0b4b71;
 }
 
 .tabsContain.finaeon{
  outline:0px solid red;
- margin:15px 0 50px 0;
+ margin:15px auto 50px;
+ max-width:1015px;
 }
+
+
 
 .tabsContain.finaeon ul li{
   font-size: 24px;
@@ -75,6 +87,11 @@ section.finaeonHero{
     font-size:24px;
     margin-top:-50px;
   }
+}
+
+.finaeonDescriptionText h5{
+  margin:35px 0px;
+  font-weight:600;
 }
 
 @media only screen and (max-width:330px){

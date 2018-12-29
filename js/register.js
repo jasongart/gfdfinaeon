@@ -20,7 +20,7 @@ $("#acceptBusiness").click(function(e){
     }
     else{
         $(alertBoxBus).show();
-        $(alertBoxBus).css("height","30px");
+        $(alertBoxBus).css("height","40px");
         $(".form-check-label").css("font-weight", "bold");
 
     }
@@ -36,7 +36,7 @@ $("#acceptAcademic").click(function(e){
         }
     else{
         $(alertBoxAca).show();
-        $(alertBoxAca).css("height","30px");
+        $(alertBoxAca).css("height","40px");
         $(".form-check-label").css("font-weight", "bold");
     }
 });

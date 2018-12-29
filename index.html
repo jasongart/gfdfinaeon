@@ -435,9 +435,13 @@
 <!-- ====== HERO ======= -->
 
 <section class="hero">
+    <video id="homeVideo" autoplay loop id="video-background" muted plays-inline>
+    <source src="images/gfdfinaeon-hero-video-bg.mp4" type="video/mp4">
+  </video>
+
     <div class="hero message">
-        <!-- <h1>The history of data is now.</h1> -->
-        <div style="width:75px; height:75px; margin:0 auto 15px; background-color:#0da59b;"></div>
+        <div id="anim_container"></div>
+        <!-- <div class="finaeonIconContain"><img src="images/finaeon-icon.png"></div> -->
         <h1 class="tagline">It's about time.</h1>
         <h4>Complete access to economic and financial data.</h4>
 
@@ -458,8 +462,7 @@
 
 <section class="gfdIntro">
   <a name="gfd" id="gfd"></a>
-  <h3>With data reaching back to the 1000s Global Financial Data holds the most comprehensive historical economic and financial database available.</h3>
-
+  <h3><strong>Finaeon is powered using data provided by Global Financial Data, Inc.</strong> So you can be sure that your reports and analysis is using the most comprehensive historical economic and financial database available.</h3>
   <div class="container">
 
     <div class="row">
@@ -505,16 +508,16 @@
 
 <section class="finaeonIntro">
 
-  <div class="finaeonDescription">
+
 
     <div id="finDesTopWrap">
       <div class="container-fluid">
         <div class="row">
 
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <div class="finaeonDescriptionText">
               <!-- <img class="finaeonLogo" src="images/finaeon-logo.png"> -->
-              <h4>Finaeon empowers our clients in both the private and public sectors to solve for a wide array of needs in their respective fields.</h4>
+              <h3>Finaeon empowers our clients in both the private and public sectors to solve for a wide array of needs in their respective fields.</h3>
               <ul>
                 <li>Independent Analysis</li>
                 <li>Identify Market Cycles</li>
@@ -526,24 +529,31 @@
 
               <!-- <h5><a class="gfdCTA" href="#">Start a trial</a> account today and see the power of Finaeon for yourself. Or <a class="finaeon dark" href="#">request a demo.</a></h5> -->
 
-              <h5><a class="finaeon dark" href="#">See the full overview of Finaeon here.</a></h5>
+              <h5><a class="finaeon darkBG button" href="finaeon.html">See a full overview of Finaeon here</a></h5>
 
             </div>
           </div>
 
-          <div class="col-lg-7">
-            <div class="finaeonDescriptionScreens">
+          <div class="col-lg-6"> </div>
 
-                  <img src="images/screenshots.png" style="width:100%;">
-            </div>
-          </div>
+
         </div>
-      </div>
     </div>
-  </div>
 
-  <div class="spacer"></div>
-  <div class="spacer"></div>
+    </div>
+
+    <div class="finaeonDescriptionScreens">
+
+          <!-- <img src="images/screenshots-mobile.png" style="width:100%;"> -->
+          <!-- <img src="images/screenshots-mobile-2.png" style="width:100%;"> -->
+          <img src="images/finaeon-screen-bg-mobile-v2.png" style="width:100%;">
+
+    </div>
+
+    <div class="finaeonDescriptionScreens parallax" data-parallax="scroll" data-image-src="images/finaeon-screen-bg.jpg">
+    </div>
+
+
 
   <!-- <div class="finDesBottomWrap">
 
@@ -707,6 +717,40 @@
 
 </div>
 
+<!-- <script src="js/bodymovin.js"></script> -->
+<!-- <script src="js/lottie.js"></script>
+<script src="js/data.js"></script> -->
+
+<script src="js/lottie.js"></script>
+
+<script>
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('anim_container'), // Required
+  path: 'js/data.json', // Required
+  renderer: 'svg/canvas/html', // Required
+  loop: true, // Optional
+  autoplay: true, // Optional
+  name: "Hello World", // Name for future reference. Optional.
+})
+</script>
+
+
+<!-- SUPPOSEDLY LOCAL SETUP -->
+<!--
+<script src="js/data.js"></script>
+<script>
+ var container = document.getElementById('anim_container');
+  // Set up our animation
+  var animData = {
+      container: container,
+      renderer: 'svg',
+      autoplay: true,
+      loop: true,
+      animationData : data
+  };
+  var anim = bodymovin.loadAnimation(animData);
+</script> -->
+
 
   </body>
 
@@ -718,13 +762,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="js/action.js"></script>
-
 <script src="js/smoothscroll.js"></script>
-
 <script src="js/parallax.min.js"></script>
 
-<script src="js/northernlights.js"></script>
+<!-- <script src="js/northernlights.js"></script> -->
 
 <!-- <script>
 document.getElementById("copyrightFooter").innerHTML = "&copy; 2018 Global Financial Data. All rights reserved.";</script> -->
+
+
 </html>

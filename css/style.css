@@ -45,17 +45,69 @@ a.gfdCTA{
 a.finaeon{color:#b7e4e1; transition:.3s; font-weight:700;}
 a.finaeon:hover{color:#5ac1ba; }
 
-a.finaeon.dark{color:#5ac1ba;; transition:.3s; font-weight:700;}
+a.finaeon.dark{color:#5ac1ba; transition:.3s; font-weight:700;}
 a.finaeon.dark:hover{color:#008080; }
+
+
+a.finaeon.dark.button{
+  color:#5ac1ba;
+  transition:.3s;
+  font-weight:700;
+  border:1px solid #5ac1ba;
+  display:block; padding:10px;
+  border-radius:7px;
+  text-align:center;
+}
+
+a.finaeon.dark.button:hover{
+  color:#008080;
+  border:1px solid #008080;
+  text-decoration:none;
+  }
+
+  a.finaeon.darkBG.button{
+  color:#5ac1ba;
+  background-color:white;
+  transition:.3s;
+  font-weight:700;
+  padding:10px 20px;
+  border-radius:7px;
+  text-align:center;
+}
+
+a.finaeon.darkBG.button:hover{
+  color:#008080;
+  text-decoration:none;
+  }
+
+a.finaeon.lightBG.button{
+  color:white;
+  background-color:#5ac1ba;
+  transition:.3s;
+  font-weight:700;
+  padding:10px 20px;
+  border-radius:7px;
+  text-align:center;
+}
+
+a.finaeon.lightBG.button:hover{
+  background-color:#008080;
+  text-decoration:none;
+  }
+
+  .lightBG.button{
+    text-transform:uppercase;
+    }
 
 
 /****** HERO ******/
 
 section.hero{
     /* background image is placeholder for eventual video background */
-    background-image: url("../Images/hero-bg-33.png");
+    /* background-image: url("../Images/hero-bg-33.png");
     background-size:cover;
-    background-color:black;
+    background-attachment: fixed;
+    background-color:black; */
     height:70vh;
     min-height:625px;
     color:white;
@@ -71,6 +123,12 @@ section.hero{
     text-align:center;
 }
 
+#anim_container{
+    width: 100px;
+    height: 100px;
+    outline: 1px solid red;
+    margin: 0 auto 15px;
+}
 
 .hero h1{
   font-weight:100;
@@ -143,7 +201,16 @@ i.fas{
 }
 
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
+
+    section.hero{
+        /* background image is placeholder for eventual video background */
+        background-image: url("../Images/hero-bg-33.png");
+        background-size:cover;
+        background-attachment: fixed;
+        background-color:black;
+
+    }
 
 /* This hides the "try Finaeon for free" as the "start a trial account" link changes to span the top of the screen */
 .hero a.heroCTA{
@@ -236,7 +303,7 @@ span#orCTA{
 /****** GFD Intro ******/
 section.gfdIntro{
   padding:20px 25px;
-
+  background-color:white;
 }
 
 .gfdIntro h3, .gfdIntro h4, .gfdIntro h5{
@@ -250,6 +317,10 @@ section.gfdIntro{
   font-size:32px;
   margin:30px auto 50px;
 }
+
+.gfdIntro h3 strong{
+  font-weight: 600;
+ }
 
 .gfdIntro h4{
   font-weight: 400;
@@ -332,22 +403,19 @@ section.gfdIntro{
 
 /****** FINAEON INTRO ******/
 section.finaeonIntro{
-  background-color:#b7e4e1;
-  background: linear-gradient(
-    180deg,
-    #e9e6e4 0%,
-    white 50%);
-    padding:30px 50px;
-
+    padding:80px 0;
+    color:white;
+    position:relative;
 }
 
 
 /* .finDesTopWrap is the top grid, which ends at the CTA, while .finDesBottomWrap is everything after that */
 .finDesTopWrap, .finDesBottomWrap, .container-fluid{
-  padding:20px;
   width:100%;
   max-width:1100px;
   margin:0 auto;
+  padding:50px 50px;
+
 }
 
 .finDesBottomWrap{
@@ -357,7 +425,10 @@ section.finaeonIntro{
 
 .finaeonIntro h3{
   font-weight:100;
-  color:#005f99;
+  /*color:#005f99;*/
+
+  margin:0 auto 30px;
+  font-size:44px;
 }
 
 .finaeonVideoContain p{
@@ -367,7 +438,7 @@ section.finaeonIntro{
 }
 
 .finaeonIntro h4{
-  font-weight:100;
+  font-weight:300;
   line-height:1.25em;
   margin:0 auto 20px;
 }
@@ -376,6 +447,71 @@ section.finaeonIntro{
   list-style-type:none;
   padding:0;
   margin:0 0 30px;
+}
+
+.finaeonDescriptionText ul li{
+  list-style-type:none;
+  padding:0;
+  margin:0 0 15px;
+  font-size:20px;
+  font-weight:400;
+}
+
+.finaeonDescriptionScreens{
+  display:none;
+  margin:50px 0px 0px;
+}
+
+.finaeonDescriptionScreens.parallax{
+  display:block;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:-50px;
+  z-index:-1;
+}
+
+@media only screen and (max-width:991px){
+  section.finaeonIntro{
+    background-color:#3f474a;
+    padding:30px 0px 0px;
+
+
+}
+
+
+.finaeonIntro h3{
+  font-weight:100;
+  /*color:#005f99;*/
+  margin:0 auto 30px;
+  font-size:36px;
+}
+
+.finaeonDescriptionText ul li{
+   font-size:16px;
+ }
+
+  a.finaeon.darkBG.button{
+ display:block;
+ max-width:450px;
+ margin:0 auto;
+}
+
+  .finDesTopWrap, .finDesBottomWrap, .container-fluid{
+  width:100%;
+  max-width:1100px;
+  margin:0 auto;
+  padding:20px;
+
+}
+
+.finaeonDescriptionScreens{
+  display:block;
+  }
+
+  .finaeonDescriptionScreens.parallax{
+  display:none;
+}
 }
 
 .finaeonIntro li{
@@ -410,6 +546,10 @@ div.finaeonVideo {
     text-align:center;
   }
 
+  .finaeonDescriptionText{
+    padding:0px 30px;
+  }
+
   .finDesBottomWrap p {
     text-align:left;
   }
@@ -423,7 +563,7 @@ div.finaeonVideo {
 
 @media only screen and (max-width:650px){
   section.finaeonIntro{
-    padding:30px 30px;
+    padding:20px 0px 0px;
   }
 
   img.finaeonLogo{
@@ -438,7 +578,7 @@ div.finaeonVideo {
 
 @media only screen and (max-width:550px){
   section.finaeonIntro{
-    padding:30px 10px;
+    padding:20px 0px 0px;
    }
 
    img.finaeonLogo{
@@ -507,7 +647,7 @@ section.blog .btn{
 footer{
   background-color:#2d2c29;
   font-family:open sans, arial, sans-serif;
-  padding:30px;
+  padding:60px 30px;
   color:white;
 }
 
@@ -635,4 +775,16 @@ padding:15px 0 0px;
 {
     padding:10px 20px;
     font-size:20px;
+}
+
+video#homeVideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  z-index: -100;
 }
