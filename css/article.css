@@ -4,7 +4,7 @@ section.articleHero{
   height:350px;
   position:relative;
   background-blend-mode: multiply;
-  background-image:url("../images/section-bg2.jpg");
+  /* background-image:url("../images/section-bg2.jpg"); */
   background-size: cover;
   transition:.3s;
   overflow: hidden;
@@ -30,6 +30,18 @@ section.articleHero{
   color:white;
   padding-bottom:20px;
   z-index:100;
+}
+
+.articleHeadContain.contact{
+  width:90%;
+  max-width:1160px;
+  margin:0 auto;
+  color:white;
+  /* padding-bottom:20px; */
+  z-index:100;
+  position:relative;
+  top:30%;
+  text-align:center;
 }
 
 .articleHeadContain h2{

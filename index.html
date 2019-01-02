@@ -534,7 +534,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6"> </div>
+          <div class="col-lg-6 empty"> </div>
 
 
         </div>
@@ -546,11 +546,11 @@
 
           <!-- <img src="images/screenshots-mobile.png" style="width:100%;"> -->
           <!-- <img src="images/screenshots-mobile-2.png" style="width:100%;"> -->
-          <img src="images/finaeon-screen-bg-mobile-v2.png" style="width:100%;">
+          <img src="images/finaeon-screen-bg-mobile-v3.png" style="width:100%;">
 
     </div>
 
-    <div class="finaeonDescriptionScreens parallax" data-parallax="scroll" data-image-src="images/finaeon-screen-bg.jpg">
+    <div class="finaeonDescriptionScreens parallax" data-parallax="scroll" data-image-src="images/finaeon-screen-bg-stretch.jpg">
     </div>
 
 
@@ -724,6 +724,23 @@
 <script src="js/lottie.js"></script>
 
 <script>
+
+setTimeout(function (){
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('anim_container'), // Required
+            path: 'js/data.json', // Required
+            renderer: 'svg/canvas/html', // Required
+            loop: false, // Optional
+            autoplay: true, // Optional
+        })
+    }, 1500);
+
+</script>
+
+
+<!-- WITHOUT SETTIMEOUT DELAYING THE START OF THE ANIMATION -->
+<!--
+<script>
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('anim_container'), // Required
   path: 'js/data.json', // Required
@@ -732,23 +749,7 @@ var animation = bodymovin.loadAnimation({
   autoplay: true, // Optional
 })
 </script>
-
-
-<!-- SUPPOSEDLY LOCAL SETUP -->
-<!--
-<script src="js/data.js"></script>
-<script>
- var container = document.getElementById('anim_container');
-  // Set up our animation
-  var animData = {
-      container: container,
-      renderer: 'svg',
-      autoplay: true,
-      loop: true,
-      animationData : data
-  };
-  var anim = bodymovin.loadAnimation(animData);
-</script> -->
+ -->
 
 
   </body>

@@ -23,8 +23,14 @@ nav.tabsContain.contact{
     }
 
 
+.contactMessage h3{
+     font-weight:100;
+     font-size:50px;
+    }
+
+
 nav.tabsContain.contact {
-    width:85%;
+    width:50%;
     max-width:1000px;
     margin: 50px auto 25px;
     }
@@ -37,11 +43,11 @@ nav.tabsContain.contact li.nav-item{
 
 nav.tabsContain.contact li.nav-item a {
    background-color:white;
-   padding:20px; 0;
+   padding:10px; 0;
    margin:0;
    box-shadow:none;
    border-radius:0px;
-   font-weight:600;
+   font-weight:400;
    height:100%;
     }
 
@@ -58,6 +64,7 @@ nav.tabsContain.contact li.nav-item a {
 nav.tabsContain.contact li.nav-item a.active {
     /* background: #ff9000; */
     background: #e78024;
+    font-weight:bold;
 }
 
 .gfdform{
@@ -122,7 +129,7 @@ button.dark{
 }
 
 nav.tabsContain.contact {
-    width:90%;
+    width:85%;
     max-width:1000px;
     margin: 50px auto 25px;
     }
