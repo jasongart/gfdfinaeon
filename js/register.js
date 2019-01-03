@@ -1,6 +1,7 @@
 var alertBoxBus = document.getElementById("checkboxAlertBus");
 var alertBoxAca = document.getElementById("checkboxAlertAca");
 
+
 $('.modal').on('hidden.bs.modal', function () {
   console.log("form reset");
   $(alertBoxBus).hide();
@@ -8,6 +9,7 @@ $('.modal').on('hidden.bs.modal', function () {
   $(alertBoxAca).hide();
   $(alertBoxAca).css("height","0px");
   $(".form-check-label").css("font-weight", "normal");
+  $(".form-check-input").prop("checked", false);
 });
 
 $("#acceptBusiness").click(function(e){
@@ -41,6 +43,16 @@ $("#acceptAcademic").click(function(e){
     }
 });
 
+
+$(".form-check-label").click(function(){
+    if ($(".form-check-input").is(":checked")){
+        $(".form-check-input").prop("checked", false);
+    }
+    else{
+    $(".form-check-input").prop("checked", true);
+}
+    // console.log("check test 1 2 1 2")
+});
 
 // $(".decline, .close").click(function(){
 //   console.log("form reset")
