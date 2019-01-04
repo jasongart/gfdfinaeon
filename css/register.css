@@ -1,11 +1,10 @@
 .registerWrap{
-background-color:#e9e6e4;
-
-background: linear-gradient(
+    background-color:#e9e6e4;
+    background: linear-gradient(
     180deg,
     #e9e6e4 0%,
     white 90%);
-padding:1px 0 40px;;
+    padding:1px 0 40px;;
 }
 
 .container-fluid.acctType{
@@ -43,17 +42,17 @@ padding:1px 0 40px;;
 } */
 
 .subBanner{
-outline: 0px solid red;
-padding: 20px;
-font-weight: 200;
-line-height: 1.5em;
-width: 80%;
-max-width: 1000px;
-text-align: center;
-margin: -50px auto 60px;
-background-color: #5c5b59;
-color: white;
-box-shadow: 0px 0px 0px #333;
+    outline: 0px solid red;
+    padding: 20px;
+    font-weight: 200;
+    line-height: 1.5em;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    margin: -50px auto 60px;
+    background-color: #5c5b59;
+    color: white;
+    box-shadow: 0px 0px 0px #333;
 }
 
 .subBanner strong{
@@ -248,13 +247,6 @@ section.register.selAcctType p.select{
 
     }
 
-/* .modal-body p,
-.modal-body li,
-.modal-body li p{
-    font-size:14px;
-    font-weight:500;
-} */
-
 .modal-footer{
     display:block;
     padding:10px 35px 5px 25px;
@@ -326,36 +318,27 @@ section.register.selAcctType p.select{
     .navMainWrap.full.login{
         display:block;
     }
-
- .col-md-6{
-    margin-bottom:75px;
- }
-
- .acctTypeDescription p{
-    font-weight:600;
-}
-
-.acctTypeDescription.textContain, .acctTypeDescription h3{
-    padding:15px 20px;
-}
-
-.banner h2{
-    font-size:36px;
-    margin:0px;
-    margin-bottom:15px;
-}
-
-.alreadyRegistered{
-    padding:0px;
-}
-
-.register h5{
-    font-size:18px;
-    line-height:1.35em;
-}
-
-
-
+     .col-md-6{
+        margin-bottom:75px;
+     }
+     .acctTypeDescription p{
+        font-weight:600;
+    }
+    .acctTypeDescription.textContain, .acctTypeDescription h3{
+        padding:15px 20px;
+    }
+    .banner h2{
+        font-size:36px;
+        margin:0px;
+        margin-bottom:15px;
+    }
+    .alreadyRegistered{
+        padding:0px;
+    }
+    .register h5{
+        font-size:18px;
+        line-height:1.35em;
+    }
 }
 
 
@@ -363,53 +346,48 @@ section.register.selAcctType p.select{
 
 .decisionButtons{
     width:100%;
-
 }
 
 
 
  @media only screen and (max-height:775px){
-.modal-content{
-    max-height:625px;
-
+    .modal-content{
+        max-height:625px;
+    }
 }
-     }
 
  @media only screen and (max-width:700px){
     .modalCheckbox, .decisionButtons{
         font-size:12px;
         font-weight:600;
-
     }
     .modal-header h5{
         font-size:28px;
-
     }
 
     .modal-content{
     max-height:600px;
+    }
 
-}
+    section.register.selAcctType p.select{
+        font-size:22px;
+        font-weight:900;
+     }
 
-section.register.selAcctType p.select{
-    font-size:22px;
-    font-weight:900;
- }
-
- ol {
-     padding-left:15px;
- }
+     ol {
+         padding-left:15px;
+     }
 
   .modal-body{
     overflow-y:scroll;
     padding:20px 20px;
 
 
-}
+    }
 
-.modalCheckbox{
-    margin-left:10px;
-}
+    .modalCheckbox{
+        margin-left:10px;
+    }
 
 }
 
@@ -420,34 +398,34 @@ section.register.selAcctType p.select{
     .modal-content{
     max-height:525px;
 
-}
- .modal-header h5{
+    }
+    .modal-header h5{
         font-size:25px;
         position:relative;
         top:2px;
 
     }
 
-section.register.selAcctType p.select{
-    font-size:20px;
-    font-weight:700;
- }
+    section.register.selAcctType p.select{
+        font-size:20px;
+        font-weight:700;
+     }
 
-.modal-footer button.accept,
-.modal-footer button.decline{
+    .modal-footer button.accept,
+    .modal-footer button.decline{
 
-    font-size:20px;
-    width:100%;
-}
+        font-size:20px;
+        width:100%;
+    }
 
-.form-check-input[type=checkbox]{
-    left:8%;
+    .form-check-input[type=checkbox]{
+        left:8%;
 
-}
+    }
 
-.modalCheckbox{
-    margin-left:3px;
-}
+    .modalCheckbox{
+        margin-left:3px;
+    }
 
 }
 
@@ -456,19 +434,19 @@ section.register.selAcctType p.select{
 
 @media only screen and (min-width:360px) and (max-width:360px) and (min-height:640px) and (max-height:640px){
 
-.modal-footer button.accept,
-.modal-footer button.decline{
+    .modal-footer button.accept,
+    .modal-footer button.decline{
 
-    font-size:20px;
-  }
+        font-size:20px;
+      }
 
-.form-check-input[type=checkbox]{
-    left:8%;
+    .form-check-input[type=checkbox]{
+        left:8%;
 
-}
+    }
 
 
-.modalCheckbox{
-    margin-left:3px;
-}
+    .modalCheckbox{
+        margin-left:3px;
+    }
 }

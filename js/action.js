@@ -21,7 +21,6 @@ $(dropDownButton).each(function(index){
       $(this).mouseleave(function(){
         $(dropBut).css({"color": "initial", "border-bottom": "none"});
         $(menuShow).hide();
-
         });
 //This prevents the menu from hiding on mouseleave from menu item
 

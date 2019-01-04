@@ -2,37 +2,37 @@
 /* For the wide version of the menu */
 
 div.dropdown-menu.fullWidthDrop{
-position:absolute;
-padding:25px;
-top:122px;
-left:0;
-width:100%;
-overflow:hidden;
+    position:absolute;
+    padding:25px;
+    top:122px;
+    left:0;
+    width:100%;
+    overflow:hidden;
 }
 
 
 
 .container-fluid.navbarFull{
-margin-top:-15px;
-margin-bottom:-10px;
-padding:0;
+    margin-top:-15px;
+    margin-bottom:-10px;
+    padding:0;
 
 
 }
 
 .row.navbarFull{
-  padding:0;
+    padding:0;
 }
 
 
 .capabilities .col-lg-2.col-md-4{
 
-  padding:20px;
+    padding:20px;
 
 }
 
 .menuSpacer{
-  margin:10px auto;
+    margin:10px auto;
 }
 
 
@@ -64,62 +64,58 @@ padding:0;
 }
 
 .menuColSection{
-  text-align:center;
-  padding:10px 20px 0px 0px;
-  margin-bottom:0px;
-  text-transform:uppercase;
-  font-weight:700;
+    text-align:center;
+    padding:10px 20px 0px 0px;
+    margin-bottom:0px;
+    text-transform:uppercase;
+    font-weight:700;
 }
 
 .menuColSection hr{
-border:1px solid #cfccc8;
-margin-top:5px;
+    border:1px solid #cfccc8;
+    margin-top:5px;
 }
 
 .navMainWrap.mobile{
-  display:none;
+    display:none;
 }
 
 
-/* .capabilities.dropWide{
-  display:none;
-} */
-
 .dropWideShow{
-  display:block;
+    display:block;
 
 }
 
 .dropActive a{
-  color:red;
+    color:red;
 
 }
 
 
 @media only screen and (max-width:1100px){
-div.dropdown-menu.fullWidthDrop{
-top:110px;
-}
+    div.dropdown-menu.fullWidthDrop{
+    top:110px;
+    }
 
-.dropdown-item {
-    font-size:13px;
-}
+    .dropdown-item {
+        font-size:13px;
+    }
 
-.dropdown-item.head {
-    font-size:14px;
-}
+    .dropdown-item.head {
+        font-size:14px;
+    }
 
-}
+    }
 
-@media only screen and (max-width:767px){
+    @media only screen and (max-width:767px){
 
-  .navMainWrap.mobile{
-    display:block;
-}
+      .navMainWrap.mobile{
+        display:block;
+    }
 
-  .navMainWrap.full{
-    display:none;
-}
+      .navMainWrap.full{
+        display:none;
+    }
 
 
 }

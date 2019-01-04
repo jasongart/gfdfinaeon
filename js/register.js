@@ -51,14 +51,5 @@ $(".form-check-label").click(function(){
     else{
     $(".form-check-input").prop("checked", true);
 }
-    // console.log("check test 1 2 1 2")
-});
 
-// $(".decline, .close").click(function(){
-//   console.log("form reset")
-//   $(alertBoxBus).hide();
-//   $(alertBoxBus).css("height","0px");
-//   $(alertBoxAca).hide();
-//   $(alertBoxAca).css("height","0px");
-//   $(".form-check-label").css("font-weight", "normal");
-// });
+});

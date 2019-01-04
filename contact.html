@@ -48,8 +48,8 @@
                     <a class="nav-link requestDemo" href="#">Request a Demo</a>
                   </li>
                 </ul>
-      </nav>
-              </div>
+            </nav>
+          </div>
 
     <div class="navMainWrap full">
 
@@ -77,7 +77,8 @@
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle dropButton" id="solutions" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
-                  <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <!-- BOOTSTRAP DROPDOWN
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="business.html">Business</a>
                     <a class="dropdown-item" href="academic.html">Academic</a>
                     <a class="dropdown-item" href="applications.html">Applications</a>
@@ -87,7 +88,8 @@
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle dropButton" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <!-- BOOTSTRAP DROPDOWN
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="aboutgfd.html">Who We Are</a>
                   <a class="dropdown-item" href="whitepapersandarticles.html">White Papers and Articles</a>
                   <a class="dropdown-item" href="articletemplate.html">GFD in Publications</a>
@@ -446,11 +448,7 @@
         <h4>Learn more about what Finaeon has to offer</h4>
       </div>
 
-<!---Javascript version of Northern lights--->
-<!-- <div class="lightsBlend"></div>
-<canvas id="northernlights"> </canvas> -->
-
-    </div>
+  </div>
 
 <!---Light animation start--->
 <div class="light one"></div>
@@ -466,132 +464,130 @@
 
 <nav class="tabsContain contact">
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link contactForm active" id="pills-gencontact-tab" data-toggle="pill" href="#pills-gencontact" role="tab" aria-controls="pills-gencontact" aria-selected="true">I have a general inquiry</a>
+        </li>
 
-
-    <li class="nav-item">
-      <a class="nav-link contactForm active" id="pills-gencontact-tab" data-toggle="pill" href="#pills-gencontact" role="tab" aria-controls="pills-gencontact" aria-selected="true">I have a general inquiry</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link contactForm" id="pills-demoreq-tab" data-toggle="pill" href="#pills-demoreq" role="tab" aria-controls="pills-demoreq" aria-selected="false">I would like to request a demo of Finaeon</a>
-    </li>
-</ul>
+        <li class="nav-item">
+          <a class="nav-link contactForm" id="pills-demoreq-tab" data-toggle="pill" href="#pills-demoreq" role="tab" aria-controls="pills-demoreq" aria-selected="false">I would like to request a demo of Finaeon</a>
+        </li>
+    </ul>
 </nav>
 
 <!-- GENERAL CONTACT FORM -->
 <div class="tab-content" id="pills-tabContent">
 
+    <div class="tab-pane fade show active" id="pills-gencontact" role="tabpanel" aria-labelledby="pills-gencontact-tab">
 
+    <div class="gfdGenContact">
 
-<div class="tab-pane fade show active" id="pills-gencontact" role="tabpanel" aria-labelledby="pills-gencontact-tab">
+            <form class="gfdform">
+                <div class="contactMessage">
+                    <h3>We want to hear from you! </h3>
+                    <p>To get in touch please fill out the form below. You can also email us at sales@globalfinancialdata.com.</p>
+                    <p>Please allow 1-2 business days to receive a response. </p>
+                    <p style="color:red; font-weight:bold;">All fields are required</p>
+                </div>
 
-<div class="gfdGenContact">
-
-
-    <form class="gfdform">
-        <div class="contactMessage">
-
-            <h3>We want to hear from you! </h3>
-            <p>To get in touch please fill out the form below. You can also email us at sales@globalfinancialdata.com.</p>
-            <p>Please allow 1-2 business days to receive a response. </p>
-
-            <p style="color:red; font-weight:bold;">All fields are required</p>
-
-        </div>
-    <div class="form-group">
-    <label for="formGroupExampleInput">Name</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-  </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-
-      <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-      <button type="submit" class="btn btn-primary teal">Send Message</button>
-    </form>
-</div>
-
-</div>
-
-
-<!-- DEMO REQUEST FORM -->
-
-<div class="tab-pane fade show" id="pills-demoreq" role="tabpanel" aria-labelledby="pills-demoreq-tab">
-
-<div class="gfdDemoReq">
-
-    <form class="gfdform">
-        <div class="contactMessage">
-
-            <h3>Request a demo of Finaeon</h3>
-            <p>To get in touch please fill out the form below. You can also email us at sales@globalfinancialdata.com.</p>
-            <p>Please allow 1-2 business days to receive a response. </p>
-
-            <p style="color:red; font-weight:bold;">All fields are required</p>
-
-        </div>
             <div class="form-group">
-            <label for="formGroupExampleInput">Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name, Last Name">
-          </div>
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            </div>
 
-          <div class="form-group">
-          <label for="formGroupExampleInput">Phone</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ex: +1 212-123-4567">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary teal">Send Message</button>
+
+            </form>
         </div>
 
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@orgname.com">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-
-          <div class="form-group">
-          <label for="formGroupExampleInput">Organization</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter company or Instutution name here">
-        </div>
-
-        <div class="form-group">
-        <label for="formGroupExampleInput">Organization Address</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="123 Main St., City, State, Postal Code, Country">
-      </div>
-
-          <div class="form-group">
-          <label for="formGroupExampleInput">Title/Role</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Examples: President, CEO, Researcher, Student">
-        </div>
-
-
-        <div class="form-group">
-      <label for="exampleFormControlSelect1">How did you hear about us?</label>
-      <select class="form-control" id="exampleFormControlSelect1">
-        <option>Convention/Trade Show</option>
-        <option>LinkedIn Advertisement</option>
-        <option>Book/Article</option>
-        <option>Blog</option>
-        <option>Internet Search</option>
-        <option>Word of Mouth</option>
-        <option>Previous User</option>
-        <option>Updata</option>
-        <option>University</option>
-        <option>Other</option>
-      </select>
     </div>
 
-          <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-      </div>
-          <button type="submit" class="btn btn-primary teal">Submit Demo Request</button>
-    </form>
-</div>
 
-</div>
+    <!-- DEMO REQUEST FORM -->
+
+    <div class="tab-pane fade show" id="pills-demoreq" role="tabpanel" aria-labelledby="pills-demoreq-tab">
+
+        <div class="gfdDemoReq">
+
+            <form class="gfdform">
+                <div class="contactMessage">
+
+                    <h3>Request a demo of Finaeon</h3>
+                    <p>To get in touch please fill out the form below. You can also email us at sales@globalfinancialdata.com.</p>
+                    <p>Please allow 1-2 business days to receive a response. </p>
+
+                    <p style="color:red; font-weight:bold;">All fields are required</p>
+                </div>
+
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name, Last Name">
+                  </div>
+
+                  <div class="form-group">
+                      <label for="formGroupExampleInput">Phone</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ex: +1 212-123-4567">
+                </div>
+
+                  <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@orgname.com">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+
+                  <div class="form-group">
+                      <label for="formGroupExampleInput">Organization</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter company or Instutution name here">
+                  </div>
+
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Organization Address</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="123 Main St., City, State, Postal Code, Country">
+                </div>
+
+                  <div class="form-group">
+                      <label for="formGroupExampleInput">Title/Role</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Examples: President, CEO, Researcher, Student">
+                  </div>
+
+
+                <div class="form-group">
+                      <label for="exampleFormControlSelect1">How did you hear about us?</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Convention/Trade Show</option>
+                        <option>LinkedIn Advertisement</option>
+                        <option>Book/Article</option>
+                        <option>Blog</option>
+                        <option>Internet Search</option>
+                        <option>Word of Mouth</option>
+                        <option>Previous User</option>
+                        <option>Updata</option>
+                        <option>University</option>
+                        <option>Other</option>
+                      </select>
+                 </div>
+
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+
+                  <button type="submit" class="btn btn-primary teal">Submit Demo Request</button>
+
+            </form>
+        </div>
+
+    </div>
 
 </div>
 

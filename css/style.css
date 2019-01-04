@@ -13,8 +13,8 @@ p{font-size:16px;}
 
 div.spacer{height:0px; clear:both;}
 
-.card { width:100%; padding:0;}
-.card p{ width:100%;}
+.card {width:100%; padding:0;}
+.card p{width:100%;}
 
 p, a{
   font-family:open sans, arial, sans-serif;
@@ -104,7 +104,7 @@ a.finaeon.lightBG.button:hover{
 
 section.hero{
     /* background image is placeholder for eventual video background */
-    /* background-image: url("../Images/hero-bg-33.png");
+    /* background-image: url("../images/hero-bg-33.png");
     background-size:cover;
     background-attachment: fixed;
     background-color:black; */
@@ -114,12 +114,11 @@ section.hero{
 }
 
 .hero.message{
-
     margin: 0 auto;
     width:90%;
     max-width:1165px;
     position:relative;
-    top:8%;
+    top:11%;
     text-align:center;
 }
 
@@ -131,20 +130,20 @@ section.hero{
 }
 
 .hero h1{
-  font-weight:100;
-  margin-bottom:15px;
-  text-transform:uppercase;
+    font-weight:100;
+    margin-bottom:15px;
+    text-transform:uppercase;
 }
 
 
 .hero h4{
-  font-weight:100;
-  letter-spacing:.5px;
-  width:92%;
-  font-size:28px;
-  max-width:700px;
-  line-height:1.35em;
-  margin:0 auto;
+    font-weight:100;
+    letter-spacing:.5px;
+    width:92%;
+    font-size:28px;
+    max-width:700px;
+    line-height:1.35em;
+    margin:0 auto;
 }
 
 /* Links inside the home page hero section */
@@ -157,12 +156,6 @@ section.hero{
   display:block;
   margin:50px auto 20px;
   border:2.5px solid #d5670a;
-  /*
-  background-color: #d5670a;
-  background-color: #e78024;
-  border:3px solid #e78024;
-  border:5px solid #d5670a;
-  */
   width:375px;
   padding:20px 5px;
   border-radius:5px;
@@ -175,7 +168,6 @@ section.hero{
 .hero a.heroCTA:hover{
   text-decoration:none;
   background-color: #d5670a;
-  /*background-color:#e78024;*/
 }
 
 
@@ -204,7 +196,6 @@ i.fas{
 @media only screen and (max-width:768px){
 
     section.hero{
-        /* background image is placeholder for eventual video background */
         background-image: url("../images/hero-bg-33.png");
         background-size:cover;
         background-attachment: fixed;
@@ -418,11 +409,6 @@ section.finaeonIntro{
 
 }
 
-.finDesBottomWrap{
-
-}
-
-
 .finaeonIntro h3{
   font-weight:100;
   /*color:#005f99;*/
@@ -475,14 +461,11 @@ section.finaeonIntro{
   section.finaeonIntro{
     background-color:#3f474a;
     padding:30px 0px 0px;
-
-
 }
 
 
 .finaeonIntro h3{
   font-weight:100;
-  /*color:#005f99;*/
   margin:0 auto 30px;
   font-size:36px;
 }
@@ -492,34 +475,32 @@ section.finaeonIntro{
  }
 
   a.finaeon.darkBG.button{
- display:block;
- max-width:450px;
- margin:0 auto;
+    display:block;
+    max-width:450px;
+    margin:0 auto;
 }
 
   .finDesTopWrap, .finDesBottomWrap, .container-fluid{
-  width:100%;
-  max-width:1100px;
-  margin:0 auto;
-  padding:20px;
-
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    padding:20px;
 }
 
 .finaeonDescriptionScreens{
-  display:block;
-  margin:0px;
+    display:block;
+    margin:0px;
   }
 
   .finaeonDescriptionScreens.parallax{
-  display:none;
-}
+      display:none;
+    }
 }
 
 .finaeonIntro li{
   line-height:1.5em;
   margin:0 0 10px;
   padding:0;
-
 }
 
 img.finaeonLogo{
@@ -536,7 +517,7 @@ div.finaeonVideo {
   width:100%;
   max-width: 500px;
   height: 300px;
-  background-image: url("../Images/video-placeholder.jpg");
+  background-image: url("../images/video-placeholder.jpg");
   background-size: cover;
   background-color: gray;
 }
@@ -736,19 +717,49 @@ padding:15px 0 0px;
     font-size: 14px;
   }
 
-  footer p a.fa{padding:10px 15px 10px 0px; font-size:24px;}
+  footer p a.fa{
+      padding:10px 15px 10px 0px;
+      font-size:24px;}
 
 
-/*****For older smartphones with smaller resolution*****/
+/*****For smartphones *****/
 
-@media only screen and (max-height:500px) and (max-width:350px){
+@media only screen and (max-width:425px){
 
   section.hero{
     min-height:450px;
   }
 
   .hero.message{
-    top:12%;
+    top:10%;
+  }
+
+  .hero h1{
+    font-size:32px;
+  }
+
+
+  .hero h4{
+    font-size:22px;
+  }
+
+  a#CTAmobile{
+    font-size:18px;
+  }
+
+}
+
+
+/*****For older smartphones with smaller resolution*****/
+
+@media only screen and (max-height:575px) and (max-width:350px){
+
+  section.hero{
+    min-height:450px;
+  }
+
+  .hero.message{
+    top:9%;
   }
 
   .hero h1{

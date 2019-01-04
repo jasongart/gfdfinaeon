@@ -2,64 +2,59 @@
 
 
 .gfdFormWrap{
-background-color:#e9e6e4;
-background: linear-gradient(
-    180deg,
-    #e9e6e4 0%,
-    white 90%);
-
-font-family: open sans, arial, sans-serif;
-padding:10px 45px 50px;
+    background-color:#e9e6e4;
+    background: linear-gradient(180deg, #e9e6e4 0%, white 90%);
+    font-family: open sans, arial, sans-serif;
+    padding:10px 45px 50px;
 }
 
 nav.tabsContain.contact{
     box-shadow:0px 0px 10px #ccc;
     border-radius:7px;
-
 }
 
 .contactMessage {
-     margin: 0px auto 25px;
-    }
+    margin: 0px auto 25px;
+}
 
 
 .contactMessage h3{
-     font-weight:100;
-     font-size:50px;
-    }
+    font-weight:100;
+    font-size:50px;
+}
 
 
 nav.tabsContain.contact {
     width:50%;
     max-width:1000px;
     margin: 50px auto 25px;
-    }
+}
 
 nav.tabsContain.contact li.nav-item{
-       width:50%;
-       text-align:center;
+    width:50%;
+    text-align:center;
 
 }
 
 nav.tabsContain.contact li.nav-item a {
-   background-color:white;
-   padding:10px; 0;
-   margin:0;
-   box-shadow:none;
-   border-radius:0px;
-   font-weight:400;
-   height:100%;
-    }
+    background-color:white;
+    padding:10px; 0;
+    margin:0;
+    box-shadow:none;
+    border-radius:0px;
+    font-weight:400;
+    height:100%;
+}
 
-   nav.tabsContain.contact ul :first-child {
+nav.tabsContain.contact ul :first-child {
     border-radius:7px 0 0 7px;
     overflow:hidden;
-    }
+}
 
-    nav.tabsContain.contact ul :last-child {
+nav.tabsContain.contact ul :last-child {
       border-radius:0px 7px 7px 0px;
       overflow:hidden;
-    }
+}
 
 nav.tabsContain.contact li.nav-item a.active {
     /* background: #ff9000; */
@@ -81,7 +76,6 @@ button.teal{
     margin-top:25px;
     outline:none;
     border:none;
-
 }
 
 button.dark{
@@ -89,16 +83,13 @@ button.dark{
     margin-top:25px;
     outline:none;
     border:none;
-
 }
 
-.btn-primary:focus
-{
+.btn-primary:focus{
     background-color: none;
 }
 
-.btn-primary:focus
-{
+.btn-primary:focus{
     outline: none;
     box-shadow: 0 0 0 transparent;
 }
@@ -110,28 +101,27 @@ button.dark{
 
 .form-group input::placeholder {
     color:#fff;
-
 }
 
 @media only screen and (max-width:800px){
    .gfdFormWrap{
      padding:5px 0px 50px;
-    }
+ }
 
      nav.tabsContain.contact ul :first-child,
      nav.tabsContain.contact ul :last-child {
         border-radius:0px;
-
-    }
-    nav.tabsContain.contact li.nav-item{
-    display:block;
-    width:100%;
 }
 
-nav.tabsContain.contact {
-    width:85%;
-    max-width:1000px;
-    margin: 50px auto 25px;
+    nav.tabsContain.contact li.nav-item{
+        display:block;
+        width:100%;
+}
+
+    nav.tabsContain.contact {
+        width:85%;
+        max-width:1000px;
+        margin: 50px auto 25px;
     }
 
 }
@@ -139,16 +129,11 @@ nav.tabsContain.contact {
 /************** LOGIN STYLING **************/
 
 .gfdFormWrap.login{
-background-color:#e9e6e4;
-background: linear-gradient(
-    180deg,
-    #e9e6e4 0%,
-    white 90%);
-
-font-family: open sans, arial, sans-serif;
-padding:50px 0px 50px;
-
-height:100%;
+    background-color:#e9e6e4;
+    background: linear-gradient(180deg, #e9e6e4 0%, white 90%);
+    font-family: open sans, arial, sans-serif;
+    padding:50px 0px 50px;
+    height:100%;
 }
 
 .gfdform.login{
@@ -161,23 +146,22 @@ height:100%;
 }
 
 .login h2{
-text-align:center;
-font-weight:700;
+    text-align:center;
+    font-weight:700;
 }
 
 .login p{
-text-align:center;
+    text-align:center;
 }
 
 p.forgotPassword{
-text-align:left;
+    text-align:left;
 }
 
 .login button{
     background-color:#e78024;
     border:none;
     width:100%;
-
 }
 
 .login button:hover{
@@ -200,33 +184,31 @@ p.copyrightFooter.login{
     left:3px;
 }
 
-@media only screen and (max-width:767px)
-{
+@media only screen and (max-width:767px){
 
-.gfdFormWrap.login{
+    .gfdFormWrap.login{
+        padding:10px 0px 50px;
+        height:100%;
+    }
 
-padding:10px 0px 50px;
-height:100%;
-}
+    .gfdform.login{
+        width:60%;
+        min-width:300px;
+        max-width:600px;
+        margin: 50px auto 25px;
+        display: block;
+        border-radius:7px;
+    }
 
-.gfdform.login{
-    width:60%;
-    min-width:300px;
-    max-width:600px;
-    margin: 50px auto 25px;
-    display: block;
-    border-radius:7px;
-}
+    .login h2{
+        font-size:38px;
+    }
 
-.login h2{
-font-size:38px;
-}
+    .login p{
+        font-size:18px;
+    }
 
-.login p{
-font-size:18px;
-}
-
-p.copyrightFooter.login{
-    font-size:12px;
-}
+    p.copyrightFooter.login{
+        font-size:12px;
+    }
 }
