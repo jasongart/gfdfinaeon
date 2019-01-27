@@ -1,0 +1,203 @@
+body, html{
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap.login{
+  padding-top:10px;
+   height:100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:mukta, arial, sans-serif;
+}
+
+h1{font-size:64px;}
+h2{font-size:48px;}
+h3{font-size:36px;}
+h4{font-size:24px;}
+h5{font-size:20px;}
+h6{font-size:16px;}
+
+p{font-size:16px;}
+
+p, a{
+  font-family:open sans, arial, sans-serif;
+}
+
+
+.contactMessage {
+    margin: 0px auto 25px;
+}
+
+
+
+
+
+.gfdform{
+    width:80%;
+    max-width:1000px;
+    margin: 50px auto 25px;
+    display: block;
+    border-radius:7px;
+}
+
+
+.btn-primary:focus{
+    background-color: none;
+}
+
+.btn-primary:focus{
+    outline: none;
+    box-shadow: 0 0 0 transparent;
+}
+
+.form-group label {
+    font-weight:700;
+}
+
+
+.form-group input::placeholder {
+    color:#fff;
+}
+
+
+/************** LOGIN STYLING **************/
+
+.gfdFormWrap.login{
+    background-color:#e9e6e4;
+    background: linear-gradient(180deg, #e9e6e4 0%, white 90%);
+    font-family: open sans, arial, sans-serif;
+    padding:50px 0px 50px;
+    height:100%;
+}
+
+.gfdform.login{
+    width:60%;
+    min-width:300px;
+    max-width:600px;
+    margin: 50px auto 25px;
+    display: block;
+    border-radius:7px;
+}
+
+.login h2{
+    text-align:center;
+    font-weight:700;
+}
+
+.login p{
+    text-align:center;
+}
+
+p.forgotPassword{
+    text-align:left;
+}
+
+.login button{
+    background-color:#e78024;
+    border:none;
+    width:100%;
+}
+
+.login button:hover{
+    background-color:#e78024;
+}
+
+.login .form-check label{
+    font-weight:400;
+    font-size:14px;
+}
+
+p.copyrightFooter.login{
+    text-align:center;
+    margin-top:150px;
+
+}
+
+.login .form-check-input[type=checkbox]{
+    position:relative;
+    left:3px;
+}
+
+@media only screen and (max-width:767px){
+
+    .gfdFormWrap.login{
+        padding:10px 0px 50px;
+        height:100%;
+    }
+
+    .gfdform.login{
+        width:60%;
+        min-width:300px;
+        max-width:600px;
+        margin: 50px auto 25px;
+        display: block;
+        border-radius:7px;
+    }
+
+    .login h2{
+        font-size:38px;
+    }
+
+    .login p{
+        font-size:18px;
+    }
+
+    p.copyrightFooter.login{
+        font-size:12px;
+    }
+}
+
+.backToFinaeon{
+    display:block;
+    margin:30px auto 20px;
+    width:85%;
+    max-width:960px;
+    font-size:18px;
+    text-align:center;
+}
+
+.navLogin{
+    padding:10px 0;
+}
+
+a.logoRegister{
+    display:block;
+    width:100%;
+    margin:10px auto;
+    text-align:center;
+    }
+
+
+a.logoRegister img{
+    float:none;
+    width:250px;
+    text-align:center;
+
+}
+
+h6.logo.register{
+    text-align:center;
+}
+
+.gfdform{
+    padding:20px;
+    background-color:white;
+    box-shadow:0px 15px 40px #ddd;
+    margin:0 auto 0;
+    width:85%;
+    max-width:1000px;
+    z-index:0;
+}
+
+
+
+/*UNIVERSAL BUTTON STYLE FOR CONTACT AND REGISTRATION*/
+.gfdform button,
+.acctTypeDescription button
+{
+    padding:10px 20px;
+    font-size:20px;
+}

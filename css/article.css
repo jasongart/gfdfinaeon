@@ -3,11 +3,12 @@
 section.articleHero{
     height:350px;
     position:relative;
-    background-blend-mode: multiply;
     /* background-image:url("../images/section-bg2.jpg"); */
     background-size: cover;
     transition:.3s;
+
     overflow: hidden;
+
 }
 
 
@@ -19,6 +20,33 @@ section.articleHero{
     outline:0px solid red;
     z-index:100;
     overflow: hidden;
+}
+
+div.overlay{
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  background:linear-gradient(155deg, black 0%, #13A79D 90%);
+  z-index:1;
+  opacity:1;
+  mix-blend-mode: color;
+}
+
+
+video#articleVideo{
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  opacity:.25;
+
+
 }
 
 .articleHeadContain{

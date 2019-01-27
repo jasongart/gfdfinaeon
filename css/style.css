@@ -154,7 +154,7 @@ section.hero{
 
 .hero a.heroCTA{
   display:block;
-  margin:50px auto 20px;
+  margin:50px auto 10px;
   border:2.5px solid #d5670a;
   width:375px;
   padding:20px 5px;
@@ -173,7 +173,7 @@ section.hero{
 
 .hero a.heroCTA.second{
   display:block;
-  margin:30px auto 0px;
+  margin:0px auto;
   background-color:initial;
   font-weight:400;
   font-size:18px;
@@ -196,7 +196,8 @@ i.fas{
 @media only screen and (max-width:768px){
 
     section.hero{
-        background-image: url("../images/hero-bg-33.png");
+        /* background-image: url("../images/hero-bg-33.png"); */
+        background-image: url("../images/hero-mobile.jpg");
         background-size:cover;
         background-attachment: fixed;
         background-color:black;
@@ -800,4 +801,97 @@ video#homeVideo{
   overflow: hidden;
   z-index: -100;
   background-color: black;
+}
+
+
+
+.dataTypes .col-md-6{
+}
+
+#altData, #coreData{
+  outline:0px solid red;
+  color:white;
+
+}
+
+#altData{
+   background-image: url("../images/alt-data-card.jpg");
+   background-size:cover;
+   background-attachment: fixed;
+   background-color:black;
+}
+
+#coreData{
+   background-image: url("../images/core-data-card.jpg");
+   background-size:cover;
+   background-attachment: fixed;
+   background-color:black;
+}
+
+#altData, #coreData{
+  padding:20px;
+  margin:0px 0 50px;
+  font-family:Mukta, arial, sans-serif;
+  /*min-height:450px;*/
+}
+
+.dataTypes h2{
+  font-weight:100;
+  font-family:Mukta, arial, sans-serif;
+  margin:50px 0 50px;
+  padding:0 20px;
+  text-align:center;
+}
+
+#altData h2, #coreData h2{
+  font-weight:600;
+  margin:0px;
+  padding:0px;
+  text-align:left;
+  font-size:30px;
+}
+
+#altData h4, #coreData h4{
+text-align:left;
+font-weight:100;
+margin:10px 0;
+font-size:18px;
+}
+
+#coreData p{
+    padding-right:30px;
+    font-family:Open Sans, arial, sans-serif;
+
+}
+
+.card p{
+margin:50px 0;
+line-height:1.75em;
+font-weight:200;
+}
+
+@media only screen and (max-width:767px){
+.dataTypes h2{
+  font-size:30px;
+  padding:0px;
+}
+
+.card-body{
+   padding:0px;
+   }
+
+.dataCard .button{
+  font-size: 14px;
+  }
+
+  .dataCard .button span{
+  display:none;
+  }
+
+}
+
+@media only screen and (min-width:990px) and (max-width:1012px){
+.dataCard .button{
+font-size: 14px;
+}
 }

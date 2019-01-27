@@ -12,6 +12,7 @@
   width:100%;
   border-radius:50%;
   animation:lightOne 25s infinite;
+  z-index:1;
 }
 
 @keyframes lightOne{
