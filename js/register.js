@@ -2,6 +2,17 @@ var alertBoxBus = document.getElementById("checkboxAlertBus");
 var alertBoxAca = document.getElementById("checkboxAlertAca");
 
 
+// HIGHLIGHTS LOGIN INPUTS WHEN USER CLICKS "LOG IN HERE"
+$("#loginHere").on('mousedown touchstart ' , function(){
+    $(".navLogin .form-control").css("box-shadow", "0px 0px 10px red");
+});
+
+$("#loginHere").on('touchend mouseup' , function(){
+    $(".navLogin .form-control").css("box-shadow", "0px 0px 0px red");
+});
+
+
+
 $('.modal').on('hidden.bs.modal', function () {
   console.log("form reset");
   $(alertBoxBus).hide();
